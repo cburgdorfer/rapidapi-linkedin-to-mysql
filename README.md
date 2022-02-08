@@ -1,6 +1,8 @@
 # rapidapi-linkedin-to-mysql
 
-Adapter that pulls the amount of Linkedin followers from RapidAPI and inserts it into a MySQL DB.
+Adapter that pulls the amount of Linkedin followers via RapidAPI and inserts it into a MySQL DB table. If you were wondering why the database has such a strange structure, that's because we blend the data with data from the Gravio IoT Database to show it all in one single Google Data Studio dashboard.
+
+You will need a RapidAPI account and authentication token for this. Get it from https://rapidapi.com/developer/dashboard , you should get a few monthly requests for free. Then it's 0.05 per request: https://rapidapi.com/williambarberjr/api/linkedin-company-data/pricing
 
 ### Creating the database table
 
